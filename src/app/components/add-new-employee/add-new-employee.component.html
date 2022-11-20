@@ -1,0 +1,47 @@
+<div class="container">
+    <form>
+      <h2>Add New Emloyee's Data</h2>
+        <div class="row">
+            <div class="col">
+                <label for="firstName">First name</label>
+                <input type="string" class="form-control" id="firstName" placeholder="Enter first name"
+                [(ngModel)]="contact.Name"
+                name="firstName">
+            </div>
+            <div class="col">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email" 
+                [(ngModel)]="contact.Email"
+                name="email">
+            </div>
+           
+              <div class="col">
+                <label for="Birthday">Birthday</label>
+                <input type="date" class="form-control" id="birthday" placeholder="Enter Birthday"
+                [(ngModel)]="contact.Birthday"
+                name="Birthday">
+              </div>
+
+              <div class="col">
+                <label for="phone">Phones</label>
+                <input type="string" class="form-control" id="phone" placeholder="Enter phone number"
+                [(ngModel)]="contact.Phones"
+                name="phoneNumber">
+              </div>
+
+
+         
+          </div><br>
+    
+        <button (click)="save()" type="submit" class="btn btn-success">Save</button>
+      </form>
+    </div>
+
+
+
+  
+
+
+
+
+      

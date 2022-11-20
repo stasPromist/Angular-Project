@@ -1,0 +1,15 @@
+
+
+.sidebar {
+    width: 20rem !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .display {
+        display: flex;
+        width: 10rem;
+    }
+  }
+
+

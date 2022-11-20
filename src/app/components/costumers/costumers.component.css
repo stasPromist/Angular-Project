@@ -1,0 +1,11 @@
+
+
+@media only screen and (max-width: 1400px) {
+    .ex1 {
+        background-color: rgb(228, 236, 239);
+        width: 100%;
+        overflow-x: scroll;
+      }
+  }
+
+  

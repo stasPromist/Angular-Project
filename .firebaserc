@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "crm2022-221c0": {
+      "hosting": {
+        "my-crm": [
+          "crm2022-221c0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "crm2022-221c0"
+  }
+}
